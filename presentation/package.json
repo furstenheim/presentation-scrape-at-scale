@@ -1,0 +1,19 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo app.js:bundle.js --live"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "reveal.js": "git+https://git@github.com/furstenheim/reveal.js.git#470999a3e8f1d54ca2169ee5dcf047d623a05981"
+  },
+  "keywords": [],
+  "author": "Gabriel Fürstenheim <furstenheim@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^10.0.4"
+  }
+}

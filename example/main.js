@@ -19,9 +19,9 @@ const sitemap = {
     'parentSelectors': ['city'],
     'type': 'SelectorText',
     'multiple': true,
-    'id': 'activities',
+    'id': 'phone_number',
     'selector': 'div.col-md-6:nth-of-type(2) address',
-    'regex': '',
+    'regex': '[0-9][0-9 ]+[0-9]',
     'delay': ''
   }],
   '_id': 'benefit'
