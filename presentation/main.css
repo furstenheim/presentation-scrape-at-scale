@@ -9,7 +9,36 @@
     display: none;
 }
 
+.reveal .td__no-bottom {
+    border-bottom: 0;
+}
+
+.reveal .td__shown-right {
+    border-right: 1px solid;
+}
+
 .reveal pre {
     /* Hack because code is not aligned*/
     box-shadow: none;
+}
+
+.reveal .two-columns {
+   display: flex;
+    justify-content: space-around;
+}
+
+.reveal .spread-list {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.reveal .small-fa-icon {
+    font-size: 20px;
+}
+
+.reveal .half-window {
+    max-width: 40vh;
+    display: flex;
+    flex-grow: 1;
 }
