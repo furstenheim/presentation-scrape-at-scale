@@ -42,3 +42,11 @@
     display: flex;
     flex-grow: 1;
 }
+
+.reveal .img-holder {
+    margin: auto;
+    max-width: 80vh;
+    max-height: 35vh;
+    display: flex;
+    justify-content: space-around;
+}
