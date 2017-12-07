@@ -110,11 +110,11 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1722"
-     inkscape:window-height="778"
-     inkscape:window-x="34"
+     inkscape:window-width="1600"
+     inkscape:window-height="844"
+     inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      fit-margin-left="5"
      fit-margin-right="5"
      fit-margin-top="5"
@@ -134,7 +134,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -279,7 +279,7 @@
          sodipodi:role="line"
          x="110.10663"
          y="543.55878"
-         id="tspan4538">  document: w</tspan><tspan
+         id="tspan4538">  document: d</tspan><tspan
          sodipodi:role="line"
          x="110.10663"
          y="565.43378"
@@ -357,7 +357,7 @@
            height="60"
            x="729.62769"
            y="644.32843" /></flowRegion><flowPara
-         id="flowPara5389"></flowPara></flowRoot>    <text
+         id="flowPara5389" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="840"
