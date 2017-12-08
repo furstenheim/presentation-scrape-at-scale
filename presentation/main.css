@@ -51,3 +51,13 @@
     display: flex;
     justify-content: space-around;
 }
+
+
+.reveal .img-holder--big {
+    margin: auto;
+    max-width: 120vh;
+    max-height: 60vh;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}

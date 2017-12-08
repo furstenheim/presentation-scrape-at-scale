@@ -133,7 +133,6 @@
         </section>
         <section>
             <h2>One refactor after</h2>
-            <div class="img-holder">
                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                 <!-- Created with Inkscape (http://www.inkscape.org/) -->
             <div class="img-holder">
@@ -511,18 +510,39 @@
         <section data-background="/resources/demo-time.gif">
         </section>
         <section>
+            <h2>Bonus</h2>
+            <p>JSDOM on the browser</p>
+            <code data-trim data-noescape>
+                <pre>
+                    const work = require('webworkify')
+                    const jsdomBrowserLoader = require('./JSDOMBrowserLoader')
+                    const worker = work(jsdomBrowserLoader)
+                    worker.postMessage({
+                        topic: 'init',
+                        sitemap
+                    })
+                    worker.addEventListener('message', function (ev) {
+                        console.log('scraped', ev.data)
+                    })
+            </code></pre>
+        </section>
+        <section>
             <h2>Next steps</h2>
             <ul>
                 <li>Using Chrome Headless</li>
                 <li>Proper error propagation</li>
             </ul>
-        </section>
-        <section>
-            <h1>Thank you!!!</h1>
             <br>
-            <ul>
-            <li><a href="https://github.com/geoblink/web-scraper-chrome-extension">github.com/geoblink/web-scraper-chrome-extension</a></li>
-            </ul>
+            <br>
+            <p> <a href="https://github.com/geoblink/web-scraper-chrome-extension">github.com/geoblink/web-scraper-chrome-extension</a>
+            </p>
+        </section>
+
+        <section>
+            <div class="img-holder">
+                <img src="/resources/geoblink.jpg" alt="">
+            </div>
+            <p><i class="fa fa-twitter icon&#45;&#45;white"> </i>&nbsp<i class="fa fa-github icon&#45;&#45;white"></i> furstenheim</p>
 
         </section>
 
