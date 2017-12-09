@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "budo app.js:bundle.js --live",
-    "publish": "node publish.js"
+    "publish": "browserify app.js -o bundle.js -t [ babelify --presets [ minify ] ] &&  node publish.js"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
@@ -15,7 +15,9 @@
   "author": "Gabriel Fürstenheim <furstenheim@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-preset-minify": "^0.2.0",
+    "babelify": "^8.0.0",
     "budo": "^10.0.4",
     "gh-pages": "^1.1.0"
   }
