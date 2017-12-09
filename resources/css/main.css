@@ -1,0 +1,63 @@
+.icon--white {
+    color: white;
+}
+.reveal .slides section .fragment.current-disappear {
+    visibility: inherit;
+    opacity: inherit;
+}
+.reveal .slides section .fragment.current-disappear.current-fragment {
+    display: none;
+}
+
+.reveal .td__no-bottom {
+    border-bottom: 0;
+}
+
+.reveal .td__shown-right {
+    border-right: 1px solid;
+}
+
+.reveal pre {
+    /* Hack because code is not aligned*/
+    box-shadow: none;
+}
+
+.reveal .two-columns {
+   display: flex;
+    justify-content: space-around;
+}
+
+.reveal .spread-list {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.reveal .small-fa-icon {
+    font-size: 20px;
+}
+
+.reveal .half-window {
+    max-width: 40vh;
+    display: flex;
+    flex-grow: 1;
+}
+
+.reveal .img-holder {
+    margin: auto;
+    max-width: 90vh;
+    max-height: 50vh;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.reveal .img-holder--big {
+    margin: auto;
+    max-width: 120vh;
+    max-height: 60vh;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
