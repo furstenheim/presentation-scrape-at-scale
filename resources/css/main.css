@@ -61,3 +61,10 @@
     display: flex;
     justify-content: space-around;
 }
+
+.reveal .img-title {
+    height: 2.11em;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
