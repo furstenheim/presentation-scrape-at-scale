@@ -20,6 +20,6 @@ Reveal.initialize({
     }
   ]
 })
-Reveal.addEventListener('ready', function () {
+/*Reveal.addEventListener('ready', function () {
   Reveal.slide(99)
-})
+})*/
