@@ -46,7 +46,7 @@
 .reveal .img-holder {
     margin: auto;
     max-width: 90vh;
-    max-height: 50vh;
+    max-height: 40vh;
     height: 70vh;
     display: flex;
     justify-content: space-around;
