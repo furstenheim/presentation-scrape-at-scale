@@ -27,7 +27,7 @@ const sitemap = {
   '_id': 'benefit'
 }
 
-webscraper(sitemap, {delay: 200, pageLoadDelay: 200})
+webscraper(sitemap, {delay: 10, pageLoadDelay: 10})
   .then(function (result) {
     console.log(result)
   }).catch(function (err) {

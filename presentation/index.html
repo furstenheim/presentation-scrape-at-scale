@@ -131,10 +131,38 @@
         </section>
         <section>
             <h2>What we need:</h2>
-            <p>Fake browser</p>
-            <p>No global variables</p>
             <p>Same code in the browser and in node</p>
-            <img src="resources/window-as-placeholder.png" alt="">
+            <p>No global variables</p>
+            <p>Fake browser</p>
+            <br>
+            <pre><code data-trim data-noescape>
+                if (window[this.type] === undefined) {
+                    throw "Selector type not defined " + this.type
+                }
+            </code></pre>
+        </section>
+        <section>
+            <h2>No global variables</h2>
+            <pre><code data-trim data-noescape>
+                function Selector (selector, options) {
+                    const $ = options.$
+                    const document = options.document
+                    const window = options.window
+                }
+            </code></pre>
+        </section>
+        <section>
+            <h2>Fake Browser</h2>
+            <p>JSDOM</p>
+            <pre>
+                <code data-trim data-noescape>
+                    const jsdom = require('jsdom').JSDOM
+                    const jQuery = require('jquery')
+                    const {window, document} = await jsdom.fromURL(u)
+                    const $ = jQuery(window)
+
+                </code>
+            </pre>
         </section>
         <section>
             <h2>One refactor after</h2>
